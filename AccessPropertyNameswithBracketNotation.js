@@ -5,8 +5,10 @@ let yWords = {
     yellow: 5
 }
 
-function getWord(word){
-    return yWords[word];
-}
+// function getWord(word){
+//     return yWords[word];
+// }
+
+getWord = (word) => yWords[word];
 
 console.log(getWord("yellow"));
